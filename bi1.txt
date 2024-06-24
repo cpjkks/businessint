@@ -1,0 +1,75 @@
+a) Briefing do Projeto; Contexto do Projeto; Processos de Negócios avaliados
+
+Briefing do Projeto:
+O projeto visa analisar os registros de ocorrências de objetos furtados e roubados no período de janeiro a abril de 2024. O objetivo principal é identificar padrões e tendências nos dados de furto e roubo de veículos, celulares e bicicletas, auxiliando na tomada de decisões estratégicas para a segurança pública.
+
+Contexto do Projeto:
+O Observatório Estadual da Segurança Pública forneceu os dados, que são atualizados e mantidos por Carlos Augusto Gabriel de Souza. Os registros abrangem diferentes municípios do estado, detalhando o tipo de objeto, a ação (furto ou roubo), a localização e outras características relevantes.
+
+Processos de Negócios avaliados:
+
+Monitoramento de ocorrências de furtos e roubos.
+Identificação de áreas e horários com maior incidência de crimes.
+Análise de padrões para apoiar a alocação de recursos de segurança.
+b) Requisitos e definições dos dados, dicionário de dados
+Requisitos e Definições dos Dados:
+Os dados devem incluir informações detalhadas sobre cada ocorrência, como número da ocorrência, data e hora, tipo de objeto, ação, grupo e tipo de incidente, UF, município, bairro, logradouro, tipo de local, tipo, marca, modelo e cor do veículo.
+
+Dicionário de Dados:
+
+Nº OCORRÊNCIA: Número da ocorrência.
+DATA DO FATO: Data do incidente.
+HORA DO FATO: Hora do incidente.
+TIPO OBJETO: Tipo do objeto (Veículo, Celular, Bicicleta).
+ACAO OBJETO: Ação sobre o objeto (Furtado, Roubado).
+GRUPO DE INCIDENTE: Categoria do incidente.
+TIPO DE INCIDENTE: Descrição específica do incidente.
+UF: Unidade Federativa onde ocorreu o incidente.
+MUNICIPIO: Município onde ocorreu o incidente.
+BAIRRO: Bairro onde ocorreu o incidente.
+LOGRADOURO: Logradouro onde ocorreu o incidente.
+TIPO DE LOCAL: Tipo de local do incidente (Via Pública, Residência, etc.).
+TIPO: Tipo específico do veículo.
+MARCA: Marca do veículo.
+MODELO: Modelo do veículo.
+COR VEICULO: Cor do veículo.
+
+c) Informações arquiteturais: infraestrutura, aplicação, papéis e responsabilidades
+Infraestrutura:
+A infraestrutura deve incluir servidores para armazenamento de dados, sistemas de segurança para proteger informações sensíveis e plataformas de análise de dados para processar grandes volumes de dados.
+
+Aplicação:
+A aplicação será uma plataforma de análise de dados que permita a visualização e exploração interativa dos dados. Ela deve suportar a geração de relatórios e painéis de controle para facilitar a tomada de decisões.
+
+Papéis e Responsabilidades:
+
+Administrador de Dados: Gerenciar e manter a base de dados.
+Analista de Dados: Realizar análises e gerar insights a partir dos dados.
+Desenvolvedor: Desenvolver e manter a aplicação de análise de dados.
+Usuário Final: Utilizar a aplicação para visualizar dados e tomar decisões estratégicas.
+
+d) Indicadores a serem apresentados no painel e suas respectivas motivações; classificação das variáveis (de controle, essenciais, de ação)
+Indicadores:
+
+Número total de ocorrências de furto e roubo: Medir a incidência geral de crimes.
+Distribuição de ocorrências por tipo de objeto: Identificar quais objetos são mais visados.
+Distribuição de ocorrências por município: Identificar áreas com maior incidência de crimes.
+Distribuição de ocorrências por horário: Identificar horários de maior risco.
+Recuperação de objetos: Medir a eficácia das ações de recuperação de objetos.
+Classificação das Variáveis:
+
+De Controle: Nº OCORRÊNCIA, DATA DO FATO, HORA DO FATO.
+Essenciais: TIPO OBJETO, ACAO OBJETO, GRUPO DE INCIDENTE, TIPO DE INCIDENTE.
+De Ação: UF, MUNICIPIO, BAIRRO, LOGRADOURO, TIPO DE LOCAL, TIPO, MARCA, MODELO, COR VEICULO.
+
+e) Informações da publicação e plano de manutenção (custos estimado da infraestrutura, papéis e responsabilidades de suporte)
+Informações da Publicação:
+Os dados são atualizados e mantidos pelo Observatório Estadual da Segurança Pública, com última atualização em 9 de Maio de 2024.
+
+Plano de Manutenção:
+
+Custos Estimados da Infraestrutura: Incluem custos de servidores, segurança de dados, e licenças de software para análise de dados.
+Papéis e Responsabilidades de Suporte:
+Administrador de Sistema: Responsável pela manutenção dos servidores e infraestrutura.
+Suporte Técnico: Fornecer suporte para usuários finais da aplicação.
+Analista de Segurança: Garantir a proteção dos dados sensíveis.
